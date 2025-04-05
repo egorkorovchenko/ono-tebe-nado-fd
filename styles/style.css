@@ -34,15 +34,18 @@
   height: 105px;
 }
 
+.address {
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+  text-underline-position: under;
+}
+
 .header__address {
   justify-self: end;
   box-sizing: unset;
   max-width: 240px;
   padding-right: 50px;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24px;
-  text-underline-position: under;
 }
 
 .main {
@@ -62,7 +65,7 @@
 .cover {
   position: relative;
   margin: 0 0 180px 0;
-  background-image: url("/images/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -124,12 +127,15 @@
 }
 
 .bet-button {
+  border-width: 1px;
+  border-style: solid;
   border-color: white;
   padding: 12px 32px 11px 31px;
   color: white;
   font-size: 22px;
   text-transform: uppercase;
   background: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -172,16 +178,16 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  padding: 48px 40px 48px 40px;
   color: white;
   line-height: 120%;
+  background-position: center center;
+  background-size: cover;
 }
 
 .card__title {
   position: relative;
   z-index: 1;
-  padding-top: 48px;
-  padding-right: 40px;
-  padding-left: 40px;
   font-size: 22px;
   line-height: 120%;
   text-decoration: underline;
@@ -192,30 +198,21 @@
 .card__text {
   position: relative;
   z-index: 1;
-  padding-right: 40px;
-  padding-bottom: 48px;
-  padding-left: 40px;
   font-size: 20px;
   line-height: 120%;
   text-decoration: none;
 }
 
 .card_type_film {
-  background-image: url("/images/card-lot-01.jpg");
-  background-position: center center;
-  background-size: cover;
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .card_type_book {
-  background-image: url("/images/card-lot-02.jpg");
-  background-position: center center;
-  background-size: cover;
+  background-image: url("../images/card-lot-02.jpg");
 }
 
 .card_type_picture {
-  background-image: url("/images/card-lot-03.jpg");
-  background-position: center center;
-  background-size: cover;
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .lots__look-more-link {
@@ -242,7 +239,7 @@
   height: 240px;
   margin-top: 35px;
   margin-left: 47px;
-  border-radius: 120px;
+  border-radius: 50%;
   background-color: black;
 }
 
@@ -271,12 +268,8 @@
   padding: 0 50px 0 50px;
 }
 
-.address {
+.footer__address {
   width: 265px;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24px;
-  text-underline-position: under;
 }
 
 .footer__menu {
